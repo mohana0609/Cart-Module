@@ -7,7 +7,7 @@ import React, { useEffect, useState } from "react";
 import axios from "axios";
 import "./App.css";
 
-const API = process.env.REACT_APP_API_URL;
+const API = "https://cart-module.onrender.com";
 
 function App() {
   const [products, setProducts] = useState([]);
